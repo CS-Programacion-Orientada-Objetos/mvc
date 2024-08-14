@@ -38,7 +38,7 @@ public class Estudiante {
 
 	@Override
 	public String toString() {
-		return "Nombre: " + nombre + "\nParcial 1: " + parcial1 + "\nParcial 2: " + parcial2 + "\nTotal: "
+		return "Nombre: " + nombre + "\nParcial 1: " + parcial1 + "\nParcial 2: " + parcial2 + "\nTotal:\t"
 				+ total() + "\n------------------------";
 	}
     

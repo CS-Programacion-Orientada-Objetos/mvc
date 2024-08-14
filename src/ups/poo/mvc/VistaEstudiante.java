@@ -18,8 +18,13 @@ public class VistaEstudiante {
 		for (int i = 0; i < estudiantes.size(); i++) {
 			System.out.println(i + ": " + estudiantes.get(i).getNombre());
 		}
-		System.out.print("\nNúmero del estudiante: ");
-		return scanner.nextInt();
+		int indice = -1;
+		do {
+			System.out.print("\nNúmero del estudiante: ");
+			indice = scanner.nextInt();
+		} while (indice < 0 || indice >= estudiantes.size());
+
+		return indice;
 	}
 
 	public int obtenerNotaParcial1() {

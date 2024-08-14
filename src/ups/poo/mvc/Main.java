@@ -18,7 +18,7 @@ public class Main {
         controlador.agregarEstudiante(new Estudiante("Juan Pérez", 25, 40));
         controlador.agregarEstudiante(new Estudiante("María López", 35, 47));
         controlador.agregarEstudiante(new Estudiante("Carlos Gómez", 47, 44));
-
+        
         // Mostrar los detalles de los estudiantes
         controlador.actualizarVista();
 
