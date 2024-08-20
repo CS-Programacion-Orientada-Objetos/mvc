@@ -40,6 +40,5 @@ public class Estudiante {
 	public String toString() {
 		return "Nombre: " + nombre + "\nParcial 1: " + parcial1 + "\nParcial 2: " + parcial2 + "\nTotal:\t"
 				+ total() + "\n------------------------";
-	}
-    
+	} 
 }
